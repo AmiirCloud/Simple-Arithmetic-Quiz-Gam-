@@ -77,6 +77,7 @@ public class AdditionGenerating {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Wecme to the Simple Quiz Game  !");
         System.out.println("Do you want To play tab (Y) or (y)  for yes  Else tab any key to cancel ");
         String answer = sc.next();
         while ((answer.equals("Y")) || (answer.equals("y"))) {
